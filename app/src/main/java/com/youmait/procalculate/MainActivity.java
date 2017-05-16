@@ -83,46 +83,6 @@ public class MainActivity extends AppCompatActivity {
             }
         });
 
-        buEqual.setOnClickListener(new View.OnClickListener() {
-            @Override
-            public void onClick(View v) {
-                editText.setText(editText.getText() + "=");
-
-            }
-        });
-
-        buDiv.setOnClickListener(new View.OnClickListener() {
-            @Override
-            public void onClick(View v) {
-                //System.out.println("Div clicked!");
-                editText.setText(editText.getText() + "/");
-            }
-        });
-
-        buProd.setOnClickListener(new View.OnClickListener() {
-
-            @Override
-            public void onClick(View v) {
-                // System.out.println("Prod clicked!");
-                editText.setText(editText.getText() + "*");
-            }
-        });
-        buSub.setOnClickListener(new View.OnClickListener() {
-
-            @Override
-            public void onClick(View v) {
-                //System.out.println("Sum clicked!");
-                editText.setText(editText.getText() + "-");
-            }
-        });
-        buSum.setOnClickListener(new View.OnClickListener() {
-
-            @Override
-            public void onClick(View v) {
-                //System.out.println("Sub clicked!");
-                editText.setText(editText.getText() + "+");
-            }
-        });
         button0.setOnClickListener(new View.OnClickListener() {
 
             @Override

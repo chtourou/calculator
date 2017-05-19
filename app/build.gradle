@@ -26,5 +26,6 @@ dependencies {
     })
     compile 'com.android.support:appcompat-v7:25.3.1'
     compile 'com.android.support.constraint:constraint-layout:1.0.2'
+    compile 'com.eclipsesource.j2v8:j2v8_android:3.0.5@aar'
     testCompile 'junit:junit:4.12'
 }
